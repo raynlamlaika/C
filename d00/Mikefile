@@ -1,0 +1,7 @@
+$(CC) = gcc
+
+$(flags) = -Wall -Werror -Wextra
+result :
+	$(CC) *.c *.h -o result
+clean :
+	rm *.o result
